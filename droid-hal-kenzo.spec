@@ -9,4 +9,9 @@
 
 %define installable_zip 1
 
+%define straggler_files \
+/init.qcom.sh\
+/init.qcom.bt.sh\
+%{nil}
+
 %include rpm/dhd/droid-hal-device.inc
